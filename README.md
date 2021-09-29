@@ -12,6 +12,7 @@ We use the [MatDeepLearn](https://github.com/vxfung/MatDeepLearn) repository as 
 * [Datasets](#dataset)
 * [Usage](#usage)
 * [Contributors](#contributors)
+* [Acknowledgement](#acknowledgement)
 
 <a name="installation"></a>
 ## Necessary Installations
@@ -58,7 +59,7 @@ We use the PyTorch Framework for our code. Please install the following packages
 
 <a name="dataset"></a>
 ## Datasets
-The datasets for our research can be found inside the data folder. Follow the instructions.txt inside each dataset for getting the full data. The bulk materials formation energy dataset and the bulk materials band gap dataset can also be found in <https://www.materialsproject.org/>. We also cited all the resources in our paper from where all the datasets were collected.
+The instruction and code to download the datasets for our research can be found inside the data folder, which are all provided by [MatDeepLearn](https://github.com/vxfung/MatDeepLearn). Follow the instructions.txt inside each dataset for getting the full data. The bulk materials formation energy dataset and the bulk materials band gap dataset can also be found in <https://www.materialsproject.org/>. We also cited all the resources in our paper from where all the datasets were collected.
 
 <a name="usage"></a>
 ## Usage
@@ -123,3 +124,8 @@ Where the name of the structure file is passed as an argument in 'file_name' and
 1. Sadman Sadeed Omee ([sadmanomee](https://github.com/sadmanomee))
 2. Steph-yves Louis ([superlouis](https://github.com/superlouis))
 3. Dr. Jianjun Hu (<http://www.cse.sc.edu/~jianjunh/>)
+
+## Acknowledgement
+
+Our work is based on the [MatDeepLearn](https://github.com/vxfung/MatDeepLearn), a well-developed deep learning framework code for materials property prediction that implemented most leading graph neural networks models and provides convenient codes for aqcuiring all the standard benchmark datasets.
+
