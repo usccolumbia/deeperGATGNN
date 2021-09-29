@@ -1,0 +1,3 @@
+1. Get API key from https://materialsproject.org/open
+2. Run script "python get_MP.py"
+3. Use this command to change all the file extensions from .json to .cif: "for f in *.json; do mv -- "$f" "${f%.json}.cif"; done". Other commands/scripts also can be used to do this.

@@ -1,0 +1,4 @@
+1. Download database file from https://github.com/arosen93/QMOF.
+3. Extract the downloaded folder
+2. Place the process.py into the extracted folder
+2. Run the python script to process into structure files with "python process.py"
