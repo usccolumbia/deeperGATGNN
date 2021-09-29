@@ -6,7 +6,7 @@ Department of Computer Science and Engineering, <br />
 University of South Carolina.<br/>
 2021.9
 
-For convenience of comparison, We use the [MatDeepLearn](https://github.com/vxfung/MatDeepLearn) repository as the starting point for our code and make necessary updates and modifications to it to make it work for our research. This release includes the DeeperGATGNN as well as the deeper version of other leading GNN models by adding the differentiable group normalization and skip connections. Our own pytorch based implementation on top of [GATGNN](https://github.com/superlouis/GATGNN) will be released soon too. 
+Our algorithm was firstly developed based on our own pytorch and pygeometric based [GATGNN](https://github.com/superlouis/GATGNN), which will be released soon too. For convenience of comparison, We later ported our implementation to [MatDeepLearn](https://github.com/vxfung/MatDeepLearn) framework and make necessary updates and modifications to it to make it work for our research. This release includes the DeeperGATGNN as well as the deeper version of other leading GNN models by adding the differentiable group normalization and skip connections. 
 
 # Table of Contents
 * [Necessary Installations](#installation)
