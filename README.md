@@ -3,7 +3,8 @@ Github repository for our research work - **"Scalable Deeper Graph Neural Networ
 
 [Machine Learning and Evolution Laboratory,](http://mleg.cse.sc.edu)<br />
 Department of Computer Science and Engineering, <br />
-University of South Carolina.
+University of South Carolina.<br/>
+2021.9
 
 We use the [MatDeepLearn](https://github.com/vxfung/MatDeepLearn) repository as the starting point for our code and make necessary updates and modifications to it to make it work for our research.
 
