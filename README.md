@@ -6,7 +6,7 @@ Department of Computer Science and Engineering, <br />
 University of South Carolina.<br/>
 2021.9
 
-We use the [MatDeepLearn](https://github.com/vxfung/MatDeepLearn) repository as the starting point for our code and make necessary updates and modifications to it to make it work for our research.
+For convenience of comparison, We use the [MatDeepLearn](https://github.com/vxfung/MatDeepLearn) repository as the starting point for our code and make necessary updates and modifications to it to make it work for our research. Our own pytorch based implementation on top of [GATGNN](https://github.com/superlouis/GATGNN) will be released soon too. 
 
 # Table of Contents
 * [Necessary Installations](#installation)
