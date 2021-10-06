@@ -1,5 +1,5 @@
 # DeeperGATGNN
-Github repository for our research work - **"Scalable Deeper Graph Neural Networks for High-performance Materials Property Prediction"** [PDF](https://arxiv.org/pdf/2109.12283).
+Github repository for our paper - **"Scalable Deeper Graph Neural Networks for High-performance Materials Property Prediction"** [PDF](https://arxiv.org/pdf/2109.12283).
 
 [Machine Learning and Evolution Laboratory,](http://mleg.cse.sc.edu)<br />
 Department of Computer Science and Engineering, <br />
