@@ -192,14 +192,12 @@ class StructureDataset_large(Dataset):
 ################################################################################
 #  Processing
 ################################################################################
-##-----------------------steph-modification------------------------------
 def create_global_feat(atoms_index_arr):
     comp    = np.zeros(108)
     temp    = np.unique(atoms_index_arr,return_counts=True)
     for i in range(len(temp[0])):
             comp[temp[0][i]]=temp[1][i]/temp[1].sum()
     return comp.reshape(1,-1)
-##-----------------------steph-modification------------------------------
 
 def process_data(data_path, processed_path, processing_args):
 
@@ -329,12 +327,10 @@ def process_data(data_path, processed_path, processing_args):
         y = torch.Tensor(np.array([target], dtype=np.float32))
         data.y = y
 
-        ##-----------------------steph-modification------------------------------
         _atoms_index     = ase_crystal.get_atomic_numbers()
         gatgnn_glob_feat = create_global_feat(_atoms_index)
         gatgnn_glob_feat = np.repeat(gatgnn_glob_feat,len(_atoms_index),axis=0)
         data.glob_feat   = torch.Tensor(gatgnn_glob_feat).float()
-        ##-----------------------steph-modification--------------------------------
 
         # pos = torch.Tensor(ase_crystal.get_positions())
         # data.pos = pos
@@ -389,7 +385,7 @@ def process_data(data_path, processed_path, processing_args):
             #         atom_dictionary[data_list[index].ase.get_atomic_numbers()[i]]
             #         for i in range(len(data_list[index].ase))
             #     ]);
-            # print('steph process line 374');exit()
+            # exit()
             data_list[index].x = torch.Tensor(atom_fea)
     elif processing_args["dictionary_source"] == "generated":
         ##Generates one-hot node features rather than using dict file

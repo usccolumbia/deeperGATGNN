@@ -9,7 +9,7 @@ print('start')
 ###need 2 files: csv containing materials project IDs and atom_init.json (generic)
 
 ###get API key from materials project login dashboard online
-API_KEY='aB1VM67J38kTL0Zy'
+API_KEY='put_your_api_key_here'
 mpr = MPRester(API_KEY)
 
 ###open file containing IDs

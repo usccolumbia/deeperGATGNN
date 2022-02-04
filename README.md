@@ -6,7 +6,7 @@ Department of Computer Science and Engineering, <br />
 University of South Carolina.<br/>
 2021.9
 
-Our algorithm was firstly developed based on our own pytorch and pygeometric based [GATGNN](https://github.com/superlouis/GATGNN), which will be released soon too. For convenience of comparison, We later ported our implementation to [MatDeepLearn](https://github.com/vxfung/MatDeepLearn) framework and make necessary updates and modifications to it to make it work for our research. This release includes the DeeperGATGNN as well as the deeper version of other leading GNN models by adding the differentiable group normalization and skip connections. 
+Our model was firstly developed based on our own pytorch and pygeometric based [GATGNN](https://github.com/superlouis/GATGNN). For convenience of comparison, we later ported our implementation to [MatDeepLearn](https://github.com/vxfung/MatDeepLearn) framework and make necessary updates and modifications to it to make it work for our research. This release includes the DeeperGATGNN as well as the deeper versions of other leading GNN models by adding the Differentiable Group Normalization and skip connections. 
 
 # Table of Contents
 * [Necessary Installations](#installation)
@@ -60,7 +60,7 @@ We use the PyTorch Framework for our code. Please install the following packages
 
 <a name="dataset"></a>
 ## Datasets
-The instruction and code to download the datasets for our research can be found inside the data folder, which are all provided by [MatDeepLearn](https://github.com/vxfung/MatDeepLearn). Follow the instructions.txt inside each dataset for getting the full data. The bulk materials formation energy dataset and the bulk materials band gap dataset can also be found in <https://www.materialsproject.org/>. We also cited all the resources in our paper from where all the datasets were collected.
+The instruction and code to download the datasets for our research can be found inside the data folder, which are all provided by [MatDeepLearn](https://github.com/vxfung/MatDeepLearn). Follow the instructions.txt inside each dataset for getting the full data. The Bulk Materials Formation Energy dataset and the Bulk Materials Band Gap dataset can also be found in <https://www.materialsproject.org/>. We also cited all the resources in our paper from where all the datasets were collected.
 
 <a name="usage"></a>
 ## Usage
