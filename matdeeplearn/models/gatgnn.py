@@ -284,12 +284,12 @@ class GATGNN(torch.nn.Module):
 
             out_x = F.dropout(out_x, p=self.dropout_rate, training=self.training)
 
-        # print('steph 287 gatgnn.py',data)
+        
         # exit()
 
         ##GLOBAL attention
         # print(out_x.shape)
-        # print('steph---->292 gatgnn.py');exit()
+        # exit()
         out_a       = self.global_att_LAYER(out_x,data.batch,data.glob_feat)
         out_x       = (out_x)*out_a            
 

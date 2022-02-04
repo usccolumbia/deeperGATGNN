@@ -183,7 +183,7 @@ Models:
         dim1: 64
         dim2: 150
         pre_fc_count: 1
-        gc_count: 10
+        gc_count: 20
         post_fc_count: 0
         pool: "global_add_pool"
         pool_order: "early"
