@@ -1,0 +1,11 @@
+Dataset description
+-------------------
+
+           Dataset              |   Unit  |      Source      | # of elements | # of samples | folder name
+----------------------------------------------------------------------------------------------------------
+Bulk Materials Formation Energy | eV/atom | MaterialsProject | 87            | 36839        | bulk_data
+Bulk Materials Band Gap         | eV      | MaterialsProject | 87            | 36837        | bg_data
+Alloy Surface Adsorption Energy | eV      | CatHub           | 42            | 37334        | surface_data
+Pt-cluster Total Energy         | eV      | Literature       | 1             | 19801        | pt_data
+2D Materials Work Function      | eV      | C2DB             | 60            | 3814         | 2D_data
+MOF Band Gap                    | eV      | QMOF             | 78            | 18321        | MOF_data
