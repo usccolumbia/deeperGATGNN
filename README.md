@@ -1,5 +1,7 @@
 # DeeperGATGNN
-Github repository for our paper - **"Scalable Deeper Graph Neural Networks for High-performance Materials Property Prediction"** [PDF](https://arxiv.org/pdf/2109.12283).
+Github repository for our paper - **"Scalable Deeper Graph Neural Networks for High-performance Materials Property Prediction"** [PDF](https://arxiv.org/pdf/2109.12283). Now published at Patterns:
+Omee, Sadman Sadeed, Steph-Yves Louis, Nihang Fu, Lai Wei, Sourin Dey, Rongzhi Dong, Qinyang Li, and Jianjun Hu. "Scalable deeper graph neural networks for high-performance materials property prediction." Patterns (2022): 100491.
+
 
 [Machine Learning and Evolution Laboratory,](http://mleg.cse.sc.edu)<br />
 Department of Computer Science and Engineering, <br />
