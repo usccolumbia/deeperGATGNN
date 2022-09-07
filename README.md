@@ -38,26 +38,14 @@ We use the PyTorch Framework for our code. Please install the following packages
 
 3. **Some other packages**: Use the following commands to install some pachages:
     ```bash
-    pip install numpy
-    pip install scipy
-    pip install matplotlib
-    pip install pickle5
-    pip install joblib
-    pip install describe
-    pip install scikit-learn
-    pip install ray[default]
-    pip install hyperopt
-    pip install tensorboardX
+    git clone https://github.com/usccolumbia/deeperGATGNN.git
+    cd deeperGATGNN
+    pip install -r requirements.txt
     ```
 
 4. **Pymatgen**: Tested on pymatgen 2021.3.3. We recommend to use this specific version. Use the following command to install: 
     ```bash
     pip install pymatgen==v2021.3.3
-    ```
-
-5. **ASE**: Tested on ase 3.22.0. Use the following command to install: 
-    ```bash
-    pip install ase
     ```
 
 <a name="dataset"></a>

@@ -1,0 +1,11 @@
+ase==3.22.0
+dscribe==1.2.2
+hyperopt==0.2.5
+joblib==1.0.1
+matplotlib==3.4.2
+numpy==1.19.5
+pickle5==0.0.11
+ray==1.4.0
+scikit-learn==1.0
+scipy==1.6.0
+tensorboardX==2.4
