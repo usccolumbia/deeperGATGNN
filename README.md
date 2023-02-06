@@ -30,6 +30,8 @@ We use the PyTorch Framework for our code. Please install the following packages
 
 2. **Pytorch Geometric (PyG)**: Tested on torch-geometric 1.7.2. First, check your PyTorch and CUDA version. Then use the following commands to install:
     ```bash
+    export TORCH=1.9.0
+    export CUDA=cu102
     pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
     pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
     pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
