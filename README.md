@@ -47,9 +47,9 @@ We use the PyTorch Framework for our code. Please install the following packages
     pip install -r requirements.txt
     ```
 
-4. **Pymatgen**: Tested on pymatgen 2021.3.3. We recommend to use this specific version. Use the following command to install: 
+4. **Pymatgen**: Tested on pymatgen 2021.3.3. Use the following command to install: 
     ```bash
-    pip install pymatgen==v2021.3.3
+    pip install pymatgen
     ```
 
 <a name="dataset"></a>
@@ -69,11 +69,11 @@ Details about the attributes of the config.yml file can be found in the [MatDeep
 ### Training
 To train a model on a dataset, the command should be something like the following:
 ```bash
-python main.py --data_path='path/to/dataset/' --job_name="job_name" --run_mode='Training' --model='model_name' --epoch='500' --gc_count='20' --save_model='True' --model_path='my_trained_model.pth'
+python main.py --data_path='path/to/dataset/' --job_name="job_name" --run_mode='Training' --model='model_name' --epochs='500' --gc_count='20' --save_model='True' --model_path='my_trained_model.pth'
 ```
 We need to specify the dataset path in the **data_path** argument and the model name in the **model_name** argument For example, if we want to train our DeeperGATGNN model on the Pt-cluster dataset, we should use this command:
 ```bash
-python main.py --data_path='data/pt_data/pt_data' --job_name="deeper_gatgnn_gc20_pt_training_job" --run_mode='Training' --model='DEEP_GATGNN_demo' --batch_size='100' --epoch='500' --gc_count='20' --save_model='True' --model_path='deeper_gatgnn_gc20_pt_model.pth'
+python main.py --data_path='data/pt_data/pt_data' --job_name="deeper_gatgnn_gc20_pt_training_job" --run_mode='Training' --model='DEEP_GATGNN_demo' --batch_size='100' --epochs='500' --gc_count='20' --save_model='True' --model_path='deeper_gatgnn_gc20_pt_model.pth'
 ```
 Here, all the arguments are taken from the deafult settings of the config.yml file if not specified. For example, if we do not specify the gc_count, it will take the value 10 by default from the config file. All the model names can also be found inside the config file. By default the data format is json. But we can use other types of data as well, such as cif, xyz, POSCAR etc files. We just need to add another argument, like --format='cif' for that (our bulk formation energy and band gap datasets have .cif files). It is recommended to give a relevant job name because the train, validation and test output is saved on files in which the job name is a prefix.
 
