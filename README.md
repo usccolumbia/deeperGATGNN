@@ -12,6 +12,11 @@ University of South Carolina.<br/>
 
 Our model was firstly developed based on our own pytorch and pygeometric based [GATGNN](https://github.com/superlouis/GATGNN). For convenience of comparison, we later ported our implementation to [MatDeepLearn's](https://github.com/vxfung/MatDeepLearn) framework and made necessary updates and modifications to make it work for our research. This release includes the DeeperGATGNN as well as the deeper versions of other leading GNN models by adding the Differentiable Group Normalization and skip connections. 
 
+How to cite:<br />
+Sadman Sadeed Omee, Steph-Yves Louis, Nihang Fu, Lai Wei, Sourin Dey, Rongzhi Dong, Qinyang Li, and Jianjun Hu. Scalable deeper graph neural networks for high-performance materials property prediction. Patterns, 3(5):100491, 2022.
+
+![](DeeperGATGNN_architecture.png)
+
 # Table of Contents
 * [Necessary Installations](#installation)
 * [Datasets](#dataset)
