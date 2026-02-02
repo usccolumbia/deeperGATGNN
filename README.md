@@ -37,10 +37,7 @@ We use the PyTorch Framework for our code. Please install the following packages
     ```bash
     export TORCH=1.9.0
     export CUDA=cu102
-    pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
-    pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
-    pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
-    pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
+    pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://pytorch-geometric.com/whl/torch-${TORCH}+${CUDA}.html
     pip install torch-geometric
 	```
     Replace the ```${TORCH}``` with your PyTorch version and ```${CUDA}``` with your cuda version without the '.' and a prefix 'cu'. For example, if your PyTorch version is 1.9.0 and your CUDA version is 10.2, then replace ```${TORCH}``` with 1.9.0 and ```${CUDA}``` with cu102.
